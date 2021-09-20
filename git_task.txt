@@ -1,0 +1,37 @@
+SOLID
+SOLID stands for:
+S - Single-responsiblity Principle
+O - Open-closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+
+Single-Responsibility Principle: Every Java class must perform a single functionality
+Open-Closed Principle: According to new requirements the module should be open for extension but closed for modification.
+Liskov Substitution Principle: Every subclass or derived class should be substitutable for their base or parent class.
+Interface Segregation Principle: The larger interfaces split into smaller ones. Because the implementation classes use only the methods that are required.
+Dependency Inversion Principle: We must use abstraction (abstract classes and interfaces) instead of concrete implementations. High-level modules should not depend on the low-level module but both should depend on the abstraction. Because the abstraction does not depend on detail but the detail depends on abstraction. It decouples the software.
+
+
+MVC Desing Pattern
+What’s it? Consist serves to separate the presentation layer from the business logic.
+Why use it? Because is popular in app and web development, and it’s one of the most widely used software design patterns for app and web development.
+
+The Model View Controller design pattern separates concerns into one of 3 buckets:
+Model
+View
+Controller
+Model: stores & manages data (Often a database).
+
+View: Graphical User Interface
+The view is a visual representation of the data- like a chart, diagram, table, form.
+The view contains all functionality that directly interacts with the user - like clicking a button, or an enter event.
+
+Controller: Brains of the application.
+The controller connects the model and view. The controller converts inputs from the view to demands to retrieve/update data in the model.
+The controller receives input from view, uses logic to translate the input to a demand for the model, the model grabs the data, the controller passes data from the model back to the view for the user to see in a nice display.
+
+
+KISS, “Keep It Simple, Stupid”. Write the code as simply as possible, because it will be easier to maintain it in the future or when someone needs to examine the code in the future. 
+YAGNI, “You Aren’t Gonna Need It”. Don’t write code some extra features that “eventually need them”.
+DRY, “Don’t Repeat Yourself”. Don’t write similar code in different parts of the systems, and it is more advisable to write code in modules that fulfill specific functions in small chunks of code, which will be easier to maintain.
